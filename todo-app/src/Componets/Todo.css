@@ -1,0 +1,102 @@
+.header{
+text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px; 
+  color: rgb(37, 36, 34);
+  
+}
+
+ .delete{
+    border-radius: 10px;
+
+    display: flex;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #646266; /* Primary button color for text */
+    transition: color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .done{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #bb9dd4; /* Blue color for primary button */
+    color: #131212; /* White text color */
+    transition: background-color 0.3s ease;
+  }
+
+  .edit{
+      border-radius: 10px;
+
+    display: flex;
+    size: 50cm;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #6a686b; /* Primary button color for text */
+    transition: color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .textbox{
+    border-radius: 10px;
+
+     display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #16091f; /* Primary button color for text */
+    transition: color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .add{
+      border-radius: 10px;
+
+    width: 20%;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #87838a; /* Primary button color for text */
+    transition: color 0.3s ease, border-color 0.3s ease;
+  }
+
+
+.list {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 8px;
+  font-size: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style:oblique;
+  color: rgb(69, 71, 71);
+  list-style-type:circle;
+  
+  text-shadow: #7840a5;
+  list-style-type: circle; /* Change to 'circle' for circular markers */
+  height: 20px;
+}
+
+.bu{
+  display: flex;
+  align-items: center; 
+  }
+  
